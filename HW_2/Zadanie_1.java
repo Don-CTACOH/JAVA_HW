@@ -18,7 +18,7 @@ import java.util.Set;
 Параметры для фильтрации: {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
  */
 
-public class task2_1 {
+public class Zadanie_1 {
 
   public static String reader() {
     StringBuilder sb = new StringBuilder();
