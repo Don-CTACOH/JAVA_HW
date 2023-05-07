@@ -10,7 +10,7 @@ import java.util.logging.FileHandler;
 import java.util.logging.Logger;
 import java.util.logging.SimpleFormatter;
 
-public class task2_2 {
+public class Zadanie_2 {
 
     public static int[] randomArr() {
         Random rand = new Random();
