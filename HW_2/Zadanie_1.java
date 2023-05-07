@@ -11,13 +11,11 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-/**
- * В файле содержится строка с исходными данными в такой форме:
- * {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
- * Требуется на её основе построить и вывести на экран новую строку, в форме SQL
- * запроса:
- * SELECT * FROM students WHERE name = "Ivanov" AND country = "Russia" AND city
- * = "Moscow";
+/*1) Дана строка sql-запроса "select * from students where ". 
+Сформируйте часть WHERE этого запроса, используя StringBuilder. 
+Данные для фильтрации приведены ниже в виде json-строки.
+Если значение null, то параметр не должен попадать в запрос.
+Параметры для фильтрации: {"name":"Ivanov", "country":"Russia", "city":"Moscow", "age":"null"}
  */
 
 public class task2_1 {
