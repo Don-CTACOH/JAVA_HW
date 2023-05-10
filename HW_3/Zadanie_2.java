@@ -4,7 +4,7 @@
 
  */
 
-package HW3;
+package HW_3;
 
 import java.util.ArrayList;
 
@@ -14,7 +14,7 @@ import java.util.List;
 
 import java.util.Random;
 
-public class task2 {
+public class Zadanie_2 {
 
     public static List<Integer> getRandomList() {
 
